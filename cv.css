@@ -1,0 +1,52 @@
+:root {
+    --nord0:  #2E3440;
+    --nord1:  #3B4252;
+    --nord2:  #434C5E;
+    --nord3:  #4C566A;
+    --nord4:  #D8DEE9;
+    --nord5:  #E5E9F0;
+    --nord6:  #ECEFF4;
+    --nord7:  #8FBCBB;
+    --nord8:  #88C0D0;
+    --nord9:  #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCE8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: blinkmacsystemfont, -apple-system, "segoe UI","roboto","ubuntu","cantarell","fira sans","drid sans","helvetica neu Helvetica","arial","Sans serif";
+    }
+/*
+* {outline: 1px solid red;}
+*/
+body{
+    font-family: var(--font);
+    color: var(--nord01);
+}
+
+ header, section{
+    width: 960px;
+    margin:0 auto;
+ }
+
+ ul{
+    list-style-type: upper-alpha;
+ }
+
+ div{
+    display: flex;
+    background-color: var(--nord4);
+ }
+
+ section {
+    width: 960px;
+    margin:0 auto;
+}
+img{
+    margin-right: 20px ;
+}
+a:link, a:visited {
+text-decoration: none
+color;var:(--nord11);
+}
